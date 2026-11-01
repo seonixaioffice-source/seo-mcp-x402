@@ -1,6 +1,6 @@
-# SEO MCP x402
+# SEO MCP x402 — SEO Tools & Token Verdict
 
-Paid SEO tools for AI agents. Pay per call with USDC on Base via x402.
+Paid SEO tools and a Token Security & Verdict API for AI agents. Pay per call with USDC on Base via x402.
 
 **Live URL:** https://seo-mcp-x402.abacusai.app
 
@@ -14,6 +14,12 @@ Paid SEO tools for AI agents. Pay per call with USDC on Base via x402.
 | keyword_research | $0.05 | Search volume, difficulty and live top 10 results |
 | competitor_analysis | $0.10 | Estimated traffic, top keywords, content gaps, indexed pages |
 
+## Token Security & Verdict
+
+POST /verdict — $0.02
+
+Send {"address": "0x...", "chain": "base" | "ethereum"} and receive a risk score (0-100), flags, liquidity, holder concentration, honeypot indicators, top holders and a short summary.
+
 ## MCP Config
 
 ```json
@@ -25,3 +31,10 @@ Paid SEO tools for AI agents. Pay per call with USDC on Base via x402.
   }
 }
 ```
+
+## Links
+
+- Live service: https://seo-mcp-x402.abacusai.app
+- x402scan: https://www.x402scan.com/server/6e8e6ee7-ebdc-4314-a726-bbcb0289e870
+- OpenAPI: https://seo-mcp-x402.abacusai.app/openapi.json
+- Manifest: https://seo-mcp-x402.abacusai.app/.well-known/x402
